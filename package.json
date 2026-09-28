@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/peekcue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Peek validation gates for cue inputs before they hit prod.",
+  "bin": {
+    "peekcue": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/peekcue.git"
+  },
+  "homepage": "https://theworker02.github.io/peekcue/",
+  "keywords": [
+    "peek",
+    "cue",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
